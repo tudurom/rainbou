@@ -1,5 +1,7 @@
 # Rainbou
 
+###### Disclaimer: this software is a work in progress. Further updates may [break your workflow](https://xkcd.com/1172/).
+
 **Rainbou** *[<strong>reyn</strong>-boh]* is a command-line tool that generates
 themes for a diversity of programs (as long as it has templates written for
 these programs).
@@ -129,4 +131,4 @@ component:
   {{index .ColorMap "<code>" "rgb" 0}}
   ```
 
-- `srgb` - same as `rgb` but values ranging from `0` to `1`.
+- `srgb` - same as `rgb` but with values ranging from `0` to `1`.
