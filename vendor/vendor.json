@@ -1,0 +1,20 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "6nmAJBw2phU9MUmkUnqFvbO5urg=",
+			"path": "github.com/kardianos/osext",
+			"revision": "29ae4ffbc9a6fe9fb2bc5029050ce6996ea1d3bc",
+			"revisionTime": "2015-12-22T15:32:29Z"
+		},
+		{
+			"checksumSHA1": "+OgOXBoiQ+X+C2dsAeiOHwBIEH0=",
+			"origin": "github.com/tudurom/rainbou/vendor/gopkg.in/yaml.v2",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "a83829b6f1293c91addabc89d0571c246397bbf4",
+			"revisionTime": "2016-03-01T20:40:22Z"
+		}
+	],
+	"rootPath": "github.com/tudurom/rainbou"
+}
