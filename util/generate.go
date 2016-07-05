@@ -8,6 +8,7 @@ import (
 // The Context struct holds the information a template needs
 type Context struct {
 	Metadata Metadata
+	Colors   map[string]*Color
 	ColorMap map[string]map[string]interface{}
 }
 
@@ -15,7 +16,7 @@ type Context struct {
 func GenerateContext(scheme ColorScheme) Context {
 	var ret Context
 	ret.ColorMap = make(map[string]map[string]interface{})
-	ret.Metadata = scheme.Metadata
+	ret.Metadata, ret.Colors = scheme.Metadata, scheme.Colors
 
 	for index, color := range scheme.Colors {
 		ret.ColorMap[index] = make(map[string]interface{})
