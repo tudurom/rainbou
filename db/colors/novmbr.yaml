@@ -1,0 +1,31 @@
+metadata:
+  name: novembr
+  author: dkeg
+colors:
+  bg: "1f1510"
+  fg: "c7b8ac"
+  cr: "c7b8ac"
+
+  00: "241812"
+  08: "4b433f"
+
+  01: "9f6434"
+  09: "9f6434"
+
+  02: "9dac5f"
+  10: "9dac5f"
+
+  03: "cca75f"
+  11: "cca75f"
+
+  04: "2f7d7c"
+  12: "2f7d7c"
+
+  05: "b5896e"
+  13: "b5896e"
+
+  06: "52877f"
+  14: "52877f"
+
+  07: "c7b8ac"
+  15: "c7b8ac"

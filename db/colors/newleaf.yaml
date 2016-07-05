@@ -1,0 +1,31 @@
+metadata:
+  name: newleaf
+  author: dkeg
+colors:
+  bg: "1d241a"
+  fg: "bcbebb"
+  cr: "bcbebb"
+
+  00: "21291d"
+  08: "4d534a"
+
+  01: "c14d38"
+  09: "c14d38"
+
+  02: "a0ce52"
+  10: "a0ce52"
+
+  03: "be9e61"
+  11: "be9e61"
+
+  04: "4c7e89"
+  12: "4c7e89"
+
+  05: "814d61"
+  13: "814d61"
+
+  06: "79a69d"
+  14: "79a69d"
+
+  07: "bcbebb"
+  15: "bcbebb"

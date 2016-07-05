@@ -1,0 +1,31 @@
+metadata:
+  name: diner
+  author: dkeg
+colors:
+  bg: "3f4a4b"
+  fg: "aba599"
+  cr: "aba599"
+
+  00: "414d4e"
+  08: "626f71"
+
+  01: "9c7f5d"
+  09: "9c7f5d"
+
+  02: "8e958f"
+  10: "8e958f"
+
+  03: "b8af97"
+  11: "b8af97"
+
+  04: "828882"
+  12: "828882"
+
+  05: "bb9a7f"
+  13: "bb9a7f"
+
+  06: "9daba2"
+  14: "9daba2"
+
+  07: "aba599"
+  15: "aba599"

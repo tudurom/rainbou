@@ -1,0 +1,43 @@
+static const char *colorname[] = {
+  /* 8 normal colors */
+  "#{{index .ColorMap "00" "hex"}}",
+  "#{{index .ColorMap "01" "hex"}}",
+  "#{{index .ColorMap "02" "hex"}}",
+  "#{{index .ColorMap "03" "hex"}}",
+  "#{{index .ColorMap "04" "hex"}}",
+  "#{{index .ColorMap "05" "hex"}}",
+  "#{{index .ColorMap "06" "hex"}}",
+  "#{{index .ColorMap "07" "hex"}}",
+
+  /* 8 brightcolors */
+  "#{{index .ColorMap "08" "hex"}}",
+  "#{{index .ColorMap "09" "hex"}}",
+  "#{{index .ColorMap "10" "hex"}}",
+  "#{{index .ColorMap "11" "hex"}}",
+  "#{{index .ColorMap "12" "hex"}}",
+  "#{{index .ColorMap "13" "hex"}}",
+  "#{{index .ColorMap "14" "hex"}}",
+  "#{{index .ColorMap "15" "hex"}}",
+
+  [255] = 0,
+
+  /* background and foreground colors */
+  [256] = "#{{index .ColorMap "bg" "hex"}}",
+  [257] = "#{{index .ColorMap "fg" "hex"}}",
+  [258] = "#{{index .ColorMap "cr" "hex"}}"
+};
+
+/* Default colors for foreground, background and cursor */
+static unsigned int defaultfg = 256;
+static unsigned int defaultbg = 257;
+static unsigned int defaultcs = 258;
+
+/*
+ * Colors used, when the specific fg == defaultfg. So in reverse mode this
+ * will reverse too. Another logic would only make the simple feature too
+ * complex.
+ */
+static unsigned int defaultitalic = 11;
+static unsigned int defaultunderline = 7;
+
+/* vim: set ft=c : */

@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# {{.Metadata.Name}} by {{.Metadata.Author}}
+
+if [ "$TERM" = "linux" ]; then
+    echo -en "\e]P0{{index .ColorMap "00" "hex"}}"
+    echo -en "\e]P1{{index .ColorMap "01" "hex"}}"
+    echo -en "\e]P2{{index .ColorMap "02" "hex"}}"
+    echo -en "\e]P3{{index .ColorMap "03" "hex"}}"
+    echo -en "\e]P4{{index .ColorMap "04" "hex"}}"
+    echo -en "\e]P5{{index .ColorMap "05" "hex"}}"
+    echo -en "\e]P6{{index .ColorMap "06" "hex"}}"
+    echo -en "\e]P7{{index .ColorMap "07" "hex"}}"
+    echo -en "\e]P8{{index .ColorMap "08" "hex"}}"
+    echo -en "\e]P9{{index .ColorMap "09" "hex"}}"
+    echo -en "\e]PA{{index .ColorMap "10" "hex"}}"
+    echo -en "\e]PB{{index .ColorMap "11" "hex"}}"
+    echo -en "\e]PC{{index .ColorMap "12" "hex"}}"
+    echo -en "\e]PD{{index .ColorMap "13" "hex"}}"
+    echo -en "\e]PE{{index .ColorMap "14" "hex"}}"
+    echo -en "\e]PF{{index .ColorMap "15" "hex"}}"
+fi
+
+# vim: set ft=sh :

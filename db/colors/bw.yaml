@@ -1,0 +1,31 @@
+metadata:
+  name: bw
+  author: piecesofquiet
+colors:
+  bg: "000000"
+  fg: "ffffff"
+  cr: "ffffff"
+
+  00: "aaaaaa"
+  08: "aaaaaa"
+
+  01: "eeeeee"
+  09: "eeeeee"
+
+  02: "dddddd"
+  10: "dddddd"
+
+  03: "333333"
+  11: "333333"
+
+  04: "666666"
+  12: "666666"
+
+  05: "bbbbbb"
+  13: "bbbbbb"
+
+  06: "222222"
+  14: "222222"
+
+  07: "444444"
+  15: "444444"

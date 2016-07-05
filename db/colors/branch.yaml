@@ -1,0 +1,31 @@
+metadata:
+  name: branch
+  author: dkeg
+colors:
+  bg: "2d1e17"
+  fg: "cfc1a9"
+  cr: "cfc1a9"
+
+  00: "32221a"
+  08: "564a45"
+
+  01: "c2562d"
+  09: "c2562d"
+
+  02: "96a65e"
+  10: "96a65e"
+
+  03: "d29b5a"
+  11: "d29b5a"
+
+  04: "3b8e8c"
+  12: "3b8e8c"
+
+  05: "c47e5b"
+  13: "c47e5b"
+
+  06: "639a90"
+  14: "639a90"
+
+  07: "cfc1a9"
+  15: "cfc1a9"
