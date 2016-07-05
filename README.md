@@ -11,7 +11,7 @@ terminal's screen).
 ## Installation
 
 ```bash
-go get github.com/tudurom/rainbou.git
+go get github.com/tudurom/rainbou
 ```
 
 ## Usage
