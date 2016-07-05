@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"io/ioutil"
 	"os"
 	"path/filepath"
 	"strings"
@@ -16,12 +17,6 @@ func main() {
 		printUsage()
 	}
 
-	// Add the yaml suffix automatically
-	schemeFilePath, templateFilePath = os.Args[1], os.Args[2]
-	if !strings.HasSuffix(schemeFilePath, ".yaml") {
-		schemeFilePath += ".yaml"
-	}
-
 	// Scheme and template files are relative to the db directory
 	dir, err := filepath.Abs(os.Getenv("GOPATH") + "/src/github.com/tudurom/rainbou")
 	if err != nil {
@@ -30,6 +25,31 @@ func main() {
 
 	const schemeDir = "db/colors"
 	const templateDir = "db/templates"
+
+	if os.Args[1] == "ls" {
+		var d string = "<nil>"
+		if os.Args[2] == "s" || os.Args[2] == "schemes" {
+			d = dir + "/" + schemeDir
+		} else if os.Args[2] == "t" || os.Args[2] == "templates" {
+			d = dir + "/" + templateDir
+		}
+
+		if d != "<nil>" {
+			files, _ := ioutil.ReadDir(d)
+			for _, f := range files {
+				fmt.Println(strings.TrimSuffix(f.Name(), ".yaml"))
+			}
+		} else {
+			printUsage()
+		}
+		os.Exit(0)
+	}
+
+	// Add the yaml suffix automatically
+	schemeFilePath, templateFilePath = os.Args[1], os.Args[2]
+	if !strings.HasSuffix(schemeFilePath, ".yaml") {
+		schemeFilePath += ".yaml"
+	}
 
 	if schemeFilePath == "" {
 		fmt.Println("You must specify a color scheme file")
@@ -81,7 +101,9 @@ func main() {
 }
 
 func printUsage() {
-	fmt.Printf("Usage: %s <scheme_file> <template_file>\n\n", os.Args[0])
+	fmt.Printf("Usage:\n")
+	fmt.Printf("  $ %s <scheme_file> <template_file> - generate theme and print it on the screen\n", os.Args[0])
+	fmt.Printf("  $ %s ls <schemes|templates|s|t> - list bundled color schemes/templates\n\n", os.Args[0])
 	fmt.Println("Where scheme_file is the name or the path of the color scheme file and\ntemplate_file is the name or the path of the color scheme file.")
 	os.Exit(1)
 }
