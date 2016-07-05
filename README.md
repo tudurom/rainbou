@@ -53,6 +53,8 @@ Where `bg` is the background color, `fg` is the foreground color, `cr` is the
 color of the cursor and `00` to `15` are terminal ANSI color code numbers.
 Colors are written as an HTML color code without the leading `#`.
 
+[Full example](https://github.com/tudurom/rainbou/blob/master/db/colors/thunder.yaml).
+
 ## Template file format
 
 Template files are normal [Go template files](https://golang.org/pkg/text/template/). Example:
