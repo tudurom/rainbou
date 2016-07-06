@@ -20,7 +20,9 @@ go get github.com/tudurom/rainbou
 
 ```bash
 ─── ./rainbou
-Usage: ./rainbou <scheme_file> <template_file>
+Usage:
+  $ rainbou <scheme_file> <template_file> - generate theme and print it on the screen
+  $ rainbou ls <schemes|templates|s|t> - list bundled color schemes/templates
 
 Where scheme_file is the name or the path of the color scheme file and
 template_file is the name or the path of the color scheme file.

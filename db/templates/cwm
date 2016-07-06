@@ -1,0 +1,10 @@
+# {{.Metadata.Name}} by {{.Metadata.Author}}
+# drop this into your .cwmrc
+
+color activeborder   '#{{index .ColorMap "06" "hex"}}'
+color inactiveborder '#{{index .ColorMap "08" "hex"}}'
+color font           '#{{index .ColorMap "07" "hex"}}'
+color menubg         '#{{index .ColorMap "00" "hex"}}'
+color menufg         '#{{index .ColorMap "07" "hex"}}'
+color groupborder    '#{{index .ColorMap "01" "hex"}}'
+color ungroupborder  '#{{index .ColorMap "03" "hex"}}'
