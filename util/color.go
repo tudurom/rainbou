@@ -9,17 +9,17 @@ type Color struct {
 
 // Returns an HTML color without the leading #
 func (c *Color) Hex() string {
-	return fmt.Sprintf("%x%x%x", c.R, c.G, c.B)
+	return fmt.Sprintf("%02x%02x%02x", c.R, c.G, c.B)
 }
 
 // Returns an HTML color with it components reversed
 func (c *Color) HexBGR() string {
-	return fmt.Sprintf("%x%x%x", c.B, c.G, c.R)
+	return fmt.Sprintf("%02x%02x%02x", c.B, c.G, c.R)
 }
 
 // Returns an HTML-like color with its components doubled
 func (c *Color) DHex() string {
-	return fmt.Sprintf("%x%x%x%x%x%x", c.R, c.R, c.G, c.G, c.B, c.B)
+	return fmt.Sprintf("%02x%02x%02x%02x%02x%02x", c.R, c.R, c.G, c.G, c.B, c.B)
 }
 
 // Returns an array of color color components

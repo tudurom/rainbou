@@ -72,9 +72,3 @@ func TestHexColors(t *testing.T) {
 		is(actual[code]["hex"], expected[code], t)
 	}
 }
-
-func TestSrgbColors(t *testing.T) {
-	a := util.GenerateContext(GetTestScheme())
-
-	is(a.ColorMap["00"].srgb, {}, t)
-}
