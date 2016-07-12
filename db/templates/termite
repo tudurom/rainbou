@@ -1,0 +1,41 @@
+# {{.Metadata.Name}} by {{.Metadata.Author}}
+
+[colors]
+
+# special
+foreground      = #{{index .ColorMap "fg" "hex"}}
+foreground_bold = #{{index .ColorMap "fg" "hex"}}
+cursor          = #{{index .ColorMap "cr" "hex"}}
+background      = #{{index .ColorMap "bg" "hex"}}
+
+# black
+color0          = #{{index .ColorMap "00" "hex"}}
+color8          = #{{index .ColorMap "08" "hex"}}
+
+# red
+color1          = #{{index .ColorMap "01" "hex"}}
+color9          = #{{index .ColorMap "09" "hex"}}
+
+# green
+color2          = #{{index .ColorMap "02" "hex"}}
+color10         = #{{index .ColorMap "10" "hex"}}
+
+# yellow
+color3          = #{{index .ColorMap "03" "hex"}}
+color11         = #{{index .ColorMap "11" "hex"}}
+
+# blue
+color4          = #{{index .ColorMap "04" "hex"}}
+color12         = #{{index .ColorMap "12" "hex"}}
+
+# magenta (or orange)
+color5          = #{{index .ColorMap "05" "hex"}}
+color13         = #{{index .ColorMap "13" "hex"}}
+
+# cyan
+color6          = #{{index .ColorMap "06" "hex"}}
+color14         = #{{index .ColorMap "14" "hex"}}
+
+# white
+color7          = #{{index .ColorMap "07" "hex"}}
+color15         = #{{index .ColorMap "15" "hex"}}
