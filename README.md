@@ -13,8 +13,10 @@ terminal's screen).
 ## Installation
 
 ```bash
-go get github.com/tudurom/rainbou
+go get -u github.com/tudurom/rainbou
 ```
+
+You can use the same command for updating the program.
 
 ## Usage
 

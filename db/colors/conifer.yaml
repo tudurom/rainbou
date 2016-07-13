@@ -1,0 +1,31 @@
+metadata:
+  name: conifer
+  author: jsphsnkr
+colors:
+  bg: "312033"
+  fg: "ffe4c9"
+  cr: "ffe4c9"
+
+  00: "312033"
+  08: "ffe4c9"
+
+  01: "7e625f"
+  09: "7e625f"
+
+  02: "bba955"
+  10: "bba955"
+
+  03: "bba955"
+  11: "bba955"
+
+  04: "aac0b4"
+  12: "aac0b4"
+
+  05: "aac0b4"
+  13: "aac0b4"
+
+  06: "aac0b4"
+  14: "aac0b4"
+
+  07: "ffe4c9"
+  15: "ffe4c9"
