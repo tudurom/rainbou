@@ -1,0 +1,20 @@
+$COLOR_FG$ #{{index .ColorMap "fg" "hex"}}
+$COLOR_BG$ #{{index .ColorMap "bg" "hex"}}
+$COLOR_CR$ #{{index .ColorMap "cr" "hex"}}
+
+$COLOR_0$ #{{index .ColorMap "00" "hex"}}
+$COLOR_1$ #{{index .ColorMap "01" "hex"}}
+$COLOR_2$ #{{index .ColorMap "02" "hex"}}
+$COLOR_3$ #{{index .ColorMap "03" "hex"}}
+$COLOR_4$ #{{index .ColorMap "04" "hex"}}
+$COLOR_5$ #{{index .ColorMap "05" "hex"}}
+$COLOR_6$ #{{index .ColorMap "06" "hex"}}
+$COLOR_7$ #{{index .ColorMap "07" "hex"}}
+$COLOR_8$ #{{index .ColorMap "08" "hex"}}
+$COLOR_9$ #{{index .ColorMap "09" "hex"}}
+$COLOR_10$ #{{index .ColorMap "10" "hex"}}
+$COLOR_11$ #{{index .ColorMap "11" "hex"}}
+$COLOR_12$ #{{index .ColorMap "12" "hex"}}
+$COLOR_13$ #{{index .ColorMap "13" "hex"}}
+$COLOR_14$ #{{index .ColorMap "14" "hex"}}
+$COLOR_15$ #{{index .ColorMap "15" "hex"}}
