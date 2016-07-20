@@ -52,12 +52,12 @@ func main() {
 	}
 
 	if schemeFilePath == "" {
-		fmt.Println("You must specify a color scheme file")
+		fmt.Fprintln(os.Stderr, "You must specify a color scheme file")
 		os.Exit(1)
 	}
 
 	if templateFilePath == "" {
-		fmt.Println("You must specify a template file")
+		fmt.Fprintln(os.Stderr, "You must specify a template file")
 		os.Exit(1)
 	}
 
@@ -76,7 +76,7 @@ func main() {
 		// Case 3: the path is relative to the working directory
 		schemeFile = absSchemeFile
 	} else {
-		fmt.Println("Color scheme file not found")
+		fmt.Fprintln(os.Stderr, "Color scheme file not found")
 		os.Exit(1)
 	}
 
@@ -93,7 +93,7 @@ func main() {
 	} else if fileExists(absTemplateFile) {
 		templateFile = absTemplateFile
 	} else {
-		fmt.Println("Template file not found")
+		fmt.Fprintln(os.Stderr, "Template file not found")
 		os.Exit(1)
 	}
 
@@ -101,10 +101,10 @@ func main() {
 }
 
 func printUsage() {
-	fmt.Printf("Usage:\n")
-	fmt.Printf("  $ %s <scheme_file> <template_file> - generate theme and print it on the screen\n", os.Args[0])
-	fmt.Printf("  $ %s ls <schemes|templates|s|t> - list bundled color schemes/templates\n\n", os.Args[0])
-	fmt.Println("Where scheme_file is the name or the path of the color scheme file and\ntemplate_file is the name or the path of the color scheme file.")
+	fmt.Fprintf(os.Stderr, "Usage:\n")
+	fmt.Fprintf(os.Stderr, "  $ %s <scheme_file> <template_file> - generate theme and print it on the screen\n", os.Args[0])
+	fmt.Fprintf(os.Stderr, "  $ %s ls <schemes|templates|s|t> - list bundled color schemes/templates\n\n", os.Args[0])
+	fmt.Fprintln(os.Stderr, "Where scheme_file is the name or the path of the color scheme file and\ntemplate_file is the name or the path of the color scheme file.")
 	os.Exit(1)
 }
 
