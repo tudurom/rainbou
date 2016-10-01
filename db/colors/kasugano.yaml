@@ -1,0 +1,31 @@
+metadata:
+  name: kasugano
+  author: kori
+colors:
+  bg: "1b1b1b"
+  fg: "ffffff"
+  cr: "ffffff"
+
+  00: "3d3d3d"
+  08: "4d4d4d"
+
+  01: "6673bf"
+  09: "899aff"
+
+  02: "3ea290"
+  10: "52ad91"
+
+  03: "b0ead9"
+  11: "98c9bb"
+
+  04: "31658c"
+  12: "477ab3"
+
+  05: "596196"
+  13: "7882bf"
+
+  06: "8292b2"
+  14: "95a7cc"
+
+  07: "c8cacc"
+  15: "edeff2"
