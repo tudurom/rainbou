@@ -2,7 +2,7 @@ package util
 
 import (
 	"bytes"
-	"html/template"
+	"text/template"
 )
 
 // The Context struct holds the information a template needs
