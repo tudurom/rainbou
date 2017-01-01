@@ -2,7 +2,7 @@
 
 **Rainbou** *[<strong>reyn</strong>-boh]* is a command-line tool that generates
 themes for a diversity of programs (as long as it has templates written for
-these programs).
+them).
 
 Given a color scheme and a template file,
 rainbou will generate a theme and print it to `stdout` (your
