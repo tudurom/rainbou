@@ -1,3 +1,8 @@
+/* others */
+$colorbg:      #{{index .ColorMap "bg" "hex"}};
+$colorfg:      #{{index .ColorMap "fg" "hex"}};
+$colorcr:      #{{index .ColorMap "cr" "hex"}};
+
 /* black */
 $color0:       #{{index .ColorMap "00" "hex"}};
 $color8:       #{{index .ColorMap "08" "hex"}};
@@ -29,5 +34,3 @@ $color14:      #{{index .ColorMap "14" "hex"}};
 /* white */
 $color7:       #{{index .ColorMap "07" "hex"}};
 $color15:      #{{index .ColorMap "15" "hex"}};
-
-// vim: set ft=scss :

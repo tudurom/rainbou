@@ -69,12 +69,12 @@ func main() {
 	if filepath.IsAbs(schemeFilePath) && fileExists(schemeFilePath) {
 		// Case 1: the supplied path is already absolute
 		schemeFile = schemeFilePath
-	} else if fileExists(dir + "/" + schemeDir + "/" + schemeFilePath) {
-		// Case 2: the path is relative to the db dir (only the color scheme was supplied)
-		schemeFile = dir + "/" + schemeDir + "/" + schemeFilePath
 	} else if fileExists(absSchemeFile) {
-		// Case 3: the path is relative to the working directory
+		// Case 2: the path is relative to the working directory
 		schemeFile = absSchemeFile
+	} else if fileExists(dir + "/" + schemeDir + "/" + schemeFilePath) {
+		// Case 3: the path is relative to the db dir (only the color scheme was supplied)
+		schemeFile = dir + "/" + schemeDir + "/" + schemeFilePath
 	} else {
 		fmt.Fprintln(os.Stderr, "Color scheme file not found")
 		os.Exit(1)
@@ -88,10 +88,10 @@ func main() {
 	}
 	if filepath.IsAbs(templateFilePath) && fileExists(templateFilePath) {
 		templateFile = templateFilePath
-	} else if fileExists(dir + "/" + templateDir + "/" + templateFilePath) {
-		templateFile = dir + "/" + templateDir + "/" + templateFilePath
 	} else if fileExists(absTemplateFile) {
 		templateFile = absTemplateFile
+	} else if fileExists(dir + "/" + templateDir + "/" + templateFilePath) {
+		templateFile = dir + "/" + templateDir + "/" + templateFilePath
 	} else {
 		fmt.Fprintln(os.Stderr, "Template file not found")
 		os.Exit(1)

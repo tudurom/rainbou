@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 # {{.Metadata.Name}} by {{.Metadata.Author}}
 
 if [ "$TERM" = "linux" ]; then
