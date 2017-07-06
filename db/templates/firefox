@@ -22,14 +22,14 @@
     --fg-light: #{{index .ColorMap "09" "hex" }}; --fg-dark: #{{index .ColorMap "06" "hex"}};
     --tab-triangle-correction: -1px;
     --tab-height: 28px; --tab-icon-size: 12px; --tab-strip-margin: -12px; --tab-overlap: -5px;
-    --tab-fonts: "gohufont",monospace,"Dejavu Sans"; --tab-font-size: 7pt;
+    --tab-fonts: "Gohu GohuFont",monospace,"Dejavu Sans"; --tab-font-size: 7pt;
     --tab-text-align: center; /* left | center | right */
     --tab-triangle: block;  /* block | none */
 
     /* URL VARIABLES */
     --url-background: var(--bg-light); --url-color: var(--fg-dark);
     --url-height: 18px; --url-right-margin: 6px;
-    --url-fonts: "gohufont",monospace,"Dejavu Sans"; --url-font-size: 7pt;
+    --url-fonts: "Gohu GohuFont",monospace,"Dejavu Sans"; --url-font-size: 7pt;
     --url-text-align: center; /* left | center | right */
     --url-position: absolute; /* absolute == top (under tabs) || fixed == bottom of browser */
 }

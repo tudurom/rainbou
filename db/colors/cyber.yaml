@@ -1,0 +1,31 @@
+metadata:
+  name: cyber
+  author: tudurom
+colors:
+  bg: "11292E"
+  fg: "E0F2EC"
+  cr: "E0F2EC"
+
+  00: "0E1F22"
+  08: "1C4B4E"
+
+  01: "A85659"
+  09: "EB8995"
+
+  02: "668E8C"
+  10: "82AEA9"
+
+  03: "C3B6A4"
+  11: "E1D9CE"
+
+  04: "326D78"
+  12: "A7D2CD"
+
+  05: "433C32"
+  13: "AA9576"
+
+  06: "386E74"
+  14: "90C0BD"
+
+  07: "E0F2EC"
+  15: "F0F8F3"
