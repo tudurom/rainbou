@@ -1,0 +1,31 @@
+metadata:
+  name: autobahn
+  author: tudurom
+colors:
+  bg: "#0B2830"
+  fg: "#C7FEFE"
+  cr: "#C7FEFE"
+
+  00: "#003549"
+  08: "#036495"
+
+  01: "#DA4B8E"
+  09: "#F973B4"
+
+  02: "#12677F"
+  10: "#009BC2"
+
+  03: "#C4BDBE"
+  11: "#F6E8EF"
+
+  04: "#004F77"
+  12: "#005490"
+
+  05: "#CD4383"
+  13: "#EA7DB2"
+
+  06: "#00CDFE"
+  14: "#37EDF7"
+
+  07: "#C7FEFE"
+  15: "#fefefe"
