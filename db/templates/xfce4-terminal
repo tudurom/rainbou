@@ -1,0 +1,6 @@
+[Scheme]
+Name={{.Metadata.Author}}-{{.Metadata.Name}}
+ColorCursor=#{{index .ColorMap "cr" "hex"}}
+ColorForeground=#{{index .ColorMap "fg" "hex"}}
+ColorBackground=#{{index .ColorMap "bg" "hex"}}
+ColorPalette=#{{index .ColorMap "00" "hex"}};#{{index .ColorMap "01" "hex"}};#{{index .ColorMap "02" "hex"}};#{{index .ColorMap "03" "hex"}};#{{index .ColorMap "04" "hex"}};#{{index .ColorMap "05" "hex"}};#{{index .ColorMap "06" "hex"}};#{{index .ColorMap "07" "hex"}};#{{index .ColorMap "08" "hex"}};#{{index .ColorMap "09" "hex"}};#{{index .ColorMap "10" "hex"}};#{{index .ColorMap "11" "hex"}};#{{index .ColorMap "12" "hex"}};#{{index .ColorMap "13" "hex"}};#{{index .ColorMap "14" "hex"}};#{{index .ColorMap "15" "hex"}}
